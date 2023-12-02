@@ -1,0 +1,83 @@
+.App{
+    display: flex;
+  }
+  
+.izquierda {
+    text-align: center;
+    width: 30vw;
+    background-color:#D9ECF2;
+    height:100vh;
+    position: relative;
+}
+  
+.contorno{
+    position: absolute;
+    left: 5%;
+    right: 5%;
+    font-family: "Cormorant Garamond";
+}
+
+.menu{
+    position: absolute;
+    left: 5%;
+    right: 5%;
+    top: 34%;
+    font-family: "Cormorant Garamond";
+}
+  
+.logo{
+    width: 70%;
+}
+  
+.derecha{
+    text-align: center;
+    width: 70vw;
+    height:100vh;
+    position: relative;
+}
+
+h2, h4{
+    margin: 2%;
+}
+
+.boton{
+    background-color: #73B3BB;
+    border-radius: 15px;
+    font-family: "Cormorant Garamond";
+    margin-top: 2%;
+    padding: 5%;
+    display: block;
+}
+
+.header{
+    height: 15vh;
+    display: flex;
+}
+
+.centro{
+    height:84vh;
+}
+
+.usuarioFoto{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin: 3%;
+    border: 2px solid black;
+}
+
+.publicacion{
+    display: block;
+    height: 100px;
+    border: 2px solid #D9ECF2;
+    margin-top:2%;
+    margin-left: 5%;
+    width: 90%;
+    background-color:#D9ECF2;
+    border-radius: 20%;
+}
+
+.interacionFoto{
+    width: 60px;
+    height: 16px;
+}

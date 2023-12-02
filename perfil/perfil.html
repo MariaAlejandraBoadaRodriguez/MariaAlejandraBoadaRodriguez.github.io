@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfil</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="App">
+      <div class="izquierda"> 
+        <div class="contorno">
+          <img src="/image/logo.jpg" class="logo">
+        </div>
+        <div class="menu">
+          <a class="boton" href="/home/home.html">HOME</a>
+          <a class="boton" href="/perfil/perfil.html">COMPLETAR PERFIL</a>
+          <a class="boton" href="/alfabetizacion/alfabetizacion.html">ALFABETIZACIÓN</a>
+          <a class="boton" href="/crearLA/crear.html">CREAR O EDITAR BUENA PRACTICA O LECCIÓN APRENDIDA</a>
+        </div>
+      </div>
+      <div class="derecha"> 
+        <div class="header">
+          <div class="usuarios"><img src="/image/user1.jpg" class="usuarioFoto"></div>
+          <div class="usuarios"><img src="/image/user2.jpg" class="usuarioFoto"></div>
+          <div class="usuarios"><img src="/image/user3.jpg" class="usuarioFoto"></div>
+          <div class="usuarios"><img src="/image/user4.jpg" class="usuarioFoto"></div>
+          <div class="usuarios"><img src="/image/user5.jpg" class="usuarioFoto"></div>
+          <div class="usuarios"><img src="/image/user6.jpg" class="usuarioFoto"></div>
+          <div class="usuarios"><img src="/image/user7.jpg" class="usuarioFoto"></div>
+          <div class="usuarios"><img src="/image/user8.jpg" class="usuarioFoto"></div>
+          <div class="usuarios"><img src="/image/user9.jpg" class="usuarioFoto"></div>
+          <div class="usuarios"><img src="/image/user10.jpg" class="usuarioFoto"></div>
+        </div>
+        <div class="centro">
+          <form class="formuladioPerfil" method="post">
+            <ul>
+              <div class="preguntasPerfil">
+                <label for="edad">Edad:</label>
+                <input type="number" id="name" name="user_name" />
+              </div>
+              <div class="preguntasPerfil">
+                <label for="sexo">Sexo:</label>
+                <input type="radio" name="hm" value="h" required> Hombre
+                <input type="radio" name="hm" value="m" required> Mujer
+              </div>
+              <div class="preguntasPerfil">
+                <label for="foto">Foto:</label>
+                <input type="file" id="name" name="user_name" />
+              </div>
+              <div class="preguntasPerfil">
+                <label for="pregrado">Pregrado:</label>
+                <input type="text" id="name" name="user_name" />
+              </div>
+              <div class="preguntasPerfil">
+                <label for="posgrado">Posgrado:</label>
+                <input type="text" id="name" name="user_name" />
+              </div>
+            </ul>
+            <div class="contornoBoton">
+              <a class="botonPerfil" href="/perfil/perfil.html" onclick="alert('Perfil Actualizado')">Guardar</a>
+            </div>
+          </form>  
+        </div>
+      </div>
+    </div>
+</body>
+</html>

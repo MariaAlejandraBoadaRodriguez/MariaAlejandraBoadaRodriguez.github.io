@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crear</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+<body>
+    <div class="App">
+      <div class="izquierda"> 
+        <div class="contorno">
+          <img src="/image/logo.jpg" class="logo">
+        </div>
+        <div class="menu">
+          <a class="boton" href="/home/home.html">HOME</a>
+          <a class="boton" href="/perfil/perfil.html">COMPLETAR PERFIL</a>
+          <a class="boton" href="/alfabetizacion/alfabetizacion.html">ALFABETIZACIÓN</a>
+          <a class="boton" href="/crearLA/crear.html">CREAR O EDITAR BUENA PRACTICA O LECCIÓN APRENDIDA</a>
+        </div>
+      </div>
+      <div class="derecha"> 
+        <div class="header">
+          <div class="usuarios"><img src="/image/user1.jpg" class="usuarioFoto"></div>
+          <div class="usuarios"><img src="/image/user2.jpg" class="usuarioFoto"></div>
+          <div class="usuarios"><img src="/image/user3.jpg" class="usuarioFoto"></div>
+          <div class="usuarios"><img src="/image/user4.jpg" class="usuarioFoto"></div>
+          <div class="usuarios"><img src="/image/user5.jpg" class="usuarioFoto"></div>
+          <div class="usuarios"><img src="/image/user6.jpg" class="usuarioFoto"></div>
+          <div class="usuarios"><img src="/image/user7.jpg" class="usuarioFoto"></div>
+          <div class="usuarios"><img src="/image/user8.jpg" class="usuarioFoto"></div>
+          <div class="usuarios"><img src="/image/user9.jpg" class="usuarioFoto"></div>
+          <div class="usuarios"><img src="/image/user10.jpg" class="usuarioFoto"></div>
+        </div>
+        <div class="centro">
+          <form class="preguntasQuiz">
+            <div class="mb-3">
+              <label for="exampleFormControlTextarea1" class="form-label">Describa brevemente la situación</label>
+              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+            <div>
+              <label>Seleccione Dependencia</label>
+              <select class="form-select" aria-label="Default select example">
+                <option selected>Selecciona una opcion</option>
+                <option value="1">Departamento Administrativo de Planeacion</option>
+                <option value="2">Departamento Adminstrativo de Juridica</option>
+                <option value="3">Secretaría General</option>
+                <option value="4">Oficina Control Disciplinario Interno</option>
+                <option value="5">Oficina Control Interno</option>
+                <option value="6">Secretaría de Educacio</option>
+                <option value="7">Secretaría De Salud</option>
+                <option value="8">Secretaría Desarrollo Social y Participacion</option>
+                <option value="9">Secretaría de Turismo</option>
+                <option value="10">Secretaría de Paz Territorial y Reconciliacion</option>
+                <option value="11">Oficina de Comunicaciones</option>
+              </select>
+            </div>
+            <div>
+              <label>Selecciones población </label>
+              <select class="form-select" aria-label="Default select example">
+                <option selected>Selecciona una opcion</option>
+                <option value="1">Indígenas</option>
+                <option value="2">Blancos</option>
+                <option value="3">Afroamericano</option>
+                <option value="4">Mestizaje</option>
+                <option value="5">Gitanos</option>
+                <option value="6">No aplica</option>
+              </select>
+            </div>
+            <div class="mb-3">
+              <label for="exampleFormControlTextarea1" class="form-label">Describa la buena practica</label>
+              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+            <div>
+            <div class="contornoBoton">
+              <a class="botonPerfil" href="/home/home.html" onclick="alert('¡Buena Practica Guardada!')">Guardar</a>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,47 @@
+.App{
+    display: flex;
+  }
+  
+.izquierda {
+    text-align: center;
+    width: 30vw;
+    background-color:#D9ECF2;
+    height:100vh;
+    position: relative;
+}
+  
+.contorno{
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    right: 10%;
+    font-family: "Cormorant Garamond";
+}
+  
+.logo{
+    margin-top: 25%;
+    width: 100%;
+}
+  
+.derecha{
+    text-align: center;
+    width: 70vw;
+    position: absolute;
+    top: 40%;
+    left: 30%;
+    right: 40%;
+    font-family: "Cormorant Garamond";
+}
+  
+.form{
+    margin: 2%;
+}
+  
+.boton{
+    background-color: #73B3BB;
+    border-radius: 7%;
+    width: 10%;
+    font-family: "Cormorant Garamond";
+    margin-top: 2%;
+    padding: 1%;
+}
