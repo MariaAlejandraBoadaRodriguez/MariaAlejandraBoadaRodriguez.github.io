@@ -64,6 +64,23 @@ h2, h4{
     border: 2px solid black;
 }
 
+.header {
+    width: 100%;
+    overflow-x: auto; 
+    white-space: nowrap;
+}
+  
+.usuarios {
+    display: inline-block; 
+    margin-right: 10px;
+}
+  
+.usuarioFoto {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+  
 .video{
     width: 90%;
     height: 90%;

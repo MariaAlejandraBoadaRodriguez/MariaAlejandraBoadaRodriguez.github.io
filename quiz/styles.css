@@ -93,3 +93,20 @@ h2, h4{
     text-align: center;
     margin-top: 2%;
 }
+
+.header {
+    width: 100%;
+    overflow-x: auto;
+    white-space: nowrap;
+}
+  
+.usuarios {
+    display: inline-block;
+    margin-right: 10px;
+}
+  
+.usuarioFoto {
+    width: 100px;
+    height: 100px; 
+    object-fit: cover;
+}

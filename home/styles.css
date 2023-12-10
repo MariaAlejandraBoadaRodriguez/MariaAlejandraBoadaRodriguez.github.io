@@ -28,7 +28,7 @@
 .logo{
     width: 70%;
 }
-  
+
 .derecha{
     text-align: center;
     width: 70vw;
@@ -55,10 +55,6 @@ h2, h4{
     display: flex;
 }
 
-.centro{
-    height:84vh;
-}
-
 .usuarioFoto{
     border-radius: 50%;
     width: 100px;
@@ -75,10 +71,46 @@ h2, h4{
     margin-left: 5%;
     width: 90%;
     background-color:#D9ECF2;
-    border-radius: 20%;
+    border-radius: 20px;
 }
 
 .interacionFoto{
     width: 60px;
     height: 16px;
+}
+
+.header {
+    width: 100%;
+    overflow-x: auto;
+    white-space: nowrap;
+}
+  
+.usuarios {
+    display: inline-block;
+    margin-right: 10px;
+}
+  
+.usuarioFoto {
+    width: 100px; 
+    height: 100px;
+    object-fit: cover;
+}
+
+.centro {
+    margin-top: 2%;
+    max-height: 500px;
+    overflow-y: auto;
+}
+  
+.publicacion {
+    display: block;
+    margin-bottom: 20px;
+    text-align: center;
+}
+  
+.interacionFoto {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
 }
